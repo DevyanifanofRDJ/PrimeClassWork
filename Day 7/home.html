@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <form onsubmit="handleFormSubmit(event)">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Name" name="name"  ><br><br>
+        <label for="email">Email: </label>
+        <input type="emal" placeholder="Email" name="email" ><br><br>
+        <label for="city">City: </label>
+        <input type="text" placeholder="City" name="city" ><br><br>
+        <button>Add</button>
+        <br><br>
+    </form>
+    <h1>Select filter</h1>
+    <br><br>
+    <select onchange="handleSelect(event)" onclick="cityCalibration()">
+        <option value="disabled selected">Select a city</option>
+    </select>
+    <div id="root"></div>
+    <script src="home.js"></script>
+</body>
+</html>
