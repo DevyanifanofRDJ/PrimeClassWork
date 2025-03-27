@@ -1,10 +1,10 @@
 // const getData=()=>{
 //     const pr=fetch("https://youtube138.p.rapidapi.com/v2/trending",{
-//         method:"GET", //optional 
-//         headers:{
-//             "x-rapidapi-host":"youtube138.p.rapidapi.com",
-//             "x-rapidapi-key":"9344fd6bc3mshc263f77d8f4af85p1b8111jsncc4c65360db4",
-//         }
+        // method:"GET", //optional 
+        // headers:{
+        //     "x-rapidapi-host":"youtube138.p.rapidapi.com",
+        //     "x-rapidapi-key":"9344fd6bc3mshc263f77d8f4af85p1b8111jsncc4c65360db4",
+        // }
 //     });
 //     pr.then(()=>{
 //         const pr2=resp.json();
